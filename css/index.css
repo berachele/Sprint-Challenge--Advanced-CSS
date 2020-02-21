@@ -160,6 +160,18 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.links {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% 0;
+}
+.links a {
+  color: #454A59;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +181,25 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #F6F6F6;
+  border-bottom: 2px solid #F1F1F1;
+}
+.menu-bar div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-bar div h1 {
+  font-size: 3.6rem;
+  margin: 2% 0 1%;
 }
 .home .intro h2 {
   padding: 15px;

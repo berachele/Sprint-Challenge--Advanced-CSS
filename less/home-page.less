@@ -1,18 +1,37 @@
 // Home Content
+.menu-bar{//parent of divs
+  .flex(center,center);
+  flex-wrap: wrap;
+  width:100%;
+  background-color: @nav-bg;
+  border-bottom: 2px solid @nav-border;
 
+  div{//parent of h1 and .links
+    width:100%;
+    .flex(center,center);
+
+    h1{
+      font-size: 3.6rem;
+      margin: 2% 0 1%;
+    }//end of h1
+
+  }//end of .menu-head
+}//end of menu bar
 .home {
 
   .intro {
 
     h2 {
       padding: 15px;
-    }
+    }//end of h2
 
     p {
       padding:0 15px;
-    }
-  
-  }
+    }//end of p
+    img{
+
+    }//end of img -- RACHELE THIS IS WHERE YOU DO SPACE IMG
+  }//end of intro
 
   .space-images {
     display: flex;
@@ -24,20 +43,20 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-    }
-  }
+    }//end of img
+  }//end of space-images
 
   .visit-planets {
     padding: 15px;
 
     h3 {
       margin-top: 11px;
-    }
+    }///end of h3
 
     p {
       margin-top: 13px;
-    }
-  }
+    }//end of p
+  }//end of visit-planets
 
   .walk {
     margin-top: 60px;
@@ -51,15 +70,15 @@
 
       h3 {
         margin-bottom: 10px;
-      }
+      }//end of h3
 
       p {
         margin-bottom: 26px;
-      }
+      }//end of p
 
       .btn {
-      }
-    }
+      }//end of btn
+    }//end of walk-text
 
     .walk-img {
       width: 46%;
@@ -69,7 +88,7 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
-      }
-    }
-  }
+      }//end of image
+    }//end of walk-image
+  }//end of walk
 }// home
