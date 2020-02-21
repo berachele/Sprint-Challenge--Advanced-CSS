@@ -54,16 +54,29 @@
     }//end of mq
   }//end of intro
 
-  .space-images {
+  .space-images{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+
+    .delete{
+      @media @phone{
+        display:none;
+      }//end of mq
+    }//end of delete
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone{
+        width:800px;
+        margin:0;
+        padding: 4%;
+        border-radius: 60px;
+      }//end of mq
     }//end of img
   }//end of space-images
 
@@ -126,7 +139,10 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+  
+      @media @phone{
+
+      }//end of mq
       img {
         width: 100%;
         height: auto;
@@ -134,6 +150,7 @@
 
         @media @phone{
           width:800px;
+          margin:0;
         }//end of mq
       }//end of image
     }//end of walk-image
@@ -144,3 +161,14 @@
     }//end of mq
   }//end of walk
 }// home
+
+footer{
+  @media @phone{
+    width:800px;
+  }//end of mq
+  p{
+    @media @phone{
+      font-size:2.5rem;
+    }//end of mq
+  }//end of p footer
+}//end of footer
