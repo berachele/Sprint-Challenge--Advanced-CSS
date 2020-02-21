@@ -116,23 +116,34 @@
 
       h3 {
         margin-bottom: 10px;
+
+        @media @phone{
+          font-size:4.5rem;
+        }//end of mq
       }//end of h3
 
       p {
         margin-bottom: 26px;
+
+        @media @phone{
+          font-size:2.5rem;
+        }//end of mq
       }//end of p
 
       .btn {
         .custom-button(100px, 35px, 1.8rem, 5px);
 
+        @media @phone{
+          .custom-button(100%, 100px, 3rem, 5px);
+        }//end of phone
         &:hover{
           background-color: @porcelain;
           color: @btn-bg-color;
-        }
+        }//end of hover
       }//end of btn
 
       @media @phone{
-        width:800px;
+        width:100%;
       }//end of mq
     }//end of walk-text
 
@@ -141,7 +152,8 @@
       margin-left: 4%;
   
       @media @phone{
-
+        width:800px;
+        margin:0;
       }//end of mq
       img {
         width: 100%;
@@ -157,6 +169,7 @@
 
     @media @phone{
       width:800px;
+      margin:0;
       flex-direction: column-reverse;
     }//end of mq
   }//end of walk
