@@ -351,6 +351,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    margin-top: 5%;
   }
 }
 .home .walk .walk-img {
@@ -370,7 +371,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img img {
-    width: 800px;
+    width: 740px;
     margin: 0;
   }
 }
@@ -379,6 +380,7 @@ footer {
     width: 800px;
     margin: 0;
     flex-direction: column-reverse;
+    padding: 40px 30px;
   }
 }
 @media (max-width: 500px) {
