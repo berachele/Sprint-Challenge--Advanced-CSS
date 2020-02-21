@@ -59,6 +59,20 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @phone{
+      width:800px;
+    }
+
+    div{
+      width:28%;
+      margin: 20px 2.5%;
+
+    }
+    .keep{
+      @media @phone{
+        width:100%;
+      }//end of mq
+    }
     .delete{
       @media @phone{
         display:none;
@@ -66,10 +80,10 @@
     }//end of delete
 
     img {
-      width: 28%;
-      margin: 20px 2.5%;
+      max-width:100%;
       border-radius: 20px;
       height: 100%;
+
 
       @media @phone{
         width:800px;

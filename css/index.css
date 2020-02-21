@@ -252,13 +252,26 @@ footer {
   width: 100%;
 }
 @media (max-width: 500px) {
+  .home .space-images {
+    width: 800px;
+  }
+}
+.home .space-images div {
+  width: 28%;
+  margin: 20px 2.5%;
+}
+@media (max-width: 500px) {
+  .home .space-images .keep {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
   .home .space-images .delete {
     display: none;
   }
 }
 .home .space-images img {
-  width: 28%;
-  margin: 20px 2.5%;
+  max-width: 100%;
   border-radius: 20px;
   height: 100%;
 }
