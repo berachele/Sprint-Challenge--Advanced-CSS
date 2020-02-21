@@ -3,12 +3,18 @@
     width:35%;
     .flex(space-between,center);
     margin:1% 0;
-    .border-test();
+
+    @media @phone{
+        width:70%;
+      }//end of mq
 
     a{
         color:@nav-font;
         text-decoration: none;
         font-size: 1.6rem;
-        .border-test();
+        
+        @media @phone{
+            font-size:2.5rem;
+          }//end of mq
     }//end of anchors
 }//end of links nav
