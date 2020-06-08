@@ -1,1 +1,20 @@
 // Mixins Here
+.border-test(){
+    border: 1px solid red;
+}
+
+.flex(@justify, @align){
+    display:flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.custom-button(@width, @height, @size, @bdr-radius){
+    .flex(center,center);
+    width: @width;
+    height: @height;
+    font-size: @size;
+    background-color: @btn-bg-color;
+    color: @porcelain;
+    border-radius: @bdr-radius;
+}
